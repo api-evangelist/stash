@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "@id": "https://www.stash.com",
+  "name": "Stash",
+  "description": "Stash is an investing and banking app that enables fractional share investing, automated portfolio building, bank account management with a Stock-Back debit card, custodial accounts for minors, IRA retirement accounts, and financial education content.",
+  "url": "https://www.stash.com",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.stashinvest.com",
+    "https://medium.com/stash-engineering"
+  ],
+  "serviceType": [
+    "Investing",
+    "Banking",
+    "Fractional Shares",
+    "Portfolio Management",
+    "Robo-Advisor",
+    "Custodial Accounts",
+    "IRA"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "termsOfService": "https://www.stash.com/terms-of-service",
+  "privacyPolicy": "https://www.stash.com/privacy-policy",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://www.stash.com/support",
+    "email": "[email protected]"
+  },
+  "knowsAbout": [
+    "Fractional Share Investing",
+    "Automated Portfolio Building",
+    "Stock-Back Debit Card",
+    "Custodial Accounts for Minors",
+    "IRA Retirement Accounts",
+    "Financial Education"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Stash Subscription Plans",
+    "url": "https://www.stash.com/pricing",
+    "priceCurrency": "USD",
+    "price": "3.00",
+    "description": "Subscription-based access to investing and banking platform starting at $3 per month."
+  },
+  "publishingPrinciples": "https://www.stash.com/learn",
+  "mainEntityOfPage": "https://www.stash.com"
+}

@@ -1,0 +1,32 @@
+{
+  "blogs": [
+    {
+      "name": "Stash Learn Blog",
+      "url": "https://www.stash.com/learn",
+      "type": "Blog",
+      "description": "Stash financial education and product content blog."
+    },
+    {
+      "name": "Stash Engineering Blog",
+      "url": "https://medium.com/stash-engineering",
+      "rssUrl": "https://medium.com/feed/stash-engineering",
+      "type": "EngineeringBlog",
+      "description": "Engineering blog covering mobile, backend, and infrastructure topics from the Stash engineering team.",
+      "posts": [
+        {
+          "title": "How to Effectively Open Pull Requests",
+          "url": "https://medium.com/stash-engineering/how-to-effectively-open-pull-requests-4bc9d7be5b98",
+          "date": "2019-04-02",
+          "author": "Gino Wu"
+        },
+        {
+          "title": "How to keep your iOS localizable files clean — Swift script edition",
+          "url": "https://medium.com/stash-engineering/how-to-keep-your-ios-localizable-files-clean-swift-script-edition-a01bc649ef1d",
+          "date": "2018-09-12",
+          "author": "Gino Wu"
+        }
+      ],
+      "lastFetched": "2026-06-13"
+    }
+  ]
+}
