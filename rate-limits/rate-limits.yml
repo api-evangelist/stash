@@ -1,0 +1,19 @@
+rateLimits:
+  description: >-
+    Stash does not publish a public developer API portal with explicit rate
+    limit documentation. Stash is a consumer-facing investing and banking
+    platform. Programmatic access to Stash account data is typically provided
+    through Open Banking aggregators such as Plaid that apply their own rate
+    limiting policies. The internal mobile and web platform APIs are
+    undocumented for external developers.
+  url: https://www.stash.com/terms-of-service
+  notes:
+    - Stash does not maintain a public REST API with documented rate limits.
+    - Access to Stash account data via Open Banking aggregators (e.g., Plaid)
+      is subject to the aggregator's rate limit policies.
+    - The unofficial stashinvest-node library (community-built) does not
+      document rate limits from the underlying platform.
+    - Contact Stash support for enterprise or partnership API access inquiries.
+  contact:
+    url: https://www.stash.com/support
+    email: [email protected]

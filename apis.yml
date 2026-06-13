@@ -1,0 +1,98 @@
+aid: stash
+name: Stash
+description: >-
+  Stash is an investing and banking app that enables fractional share investing,
+  automated portfolio building, bank account management with a Stock-Back debit
+  card, custodial accounts for minors, IRA retirement accounts, and financial
+  education content. Stash serves over one million customers and has $4.3 billion
+  under management, offering subscription-based access to a hybrid DIY and
+  robo-advisor investing experience starting at $3 per month.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/apis.yml
+type: Index
+tags:
+  - Fintech
+  - Investing
+  - Banking
+  - Fractional Shares
+  - Portfolio Management
+  - Financial Education
+  - Robo-Advisor
+  - Stock-Back
+  - Custodial Accounts
+  - IRA
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+apis:
+  - aid: stash:stash-investing-api
+    name: Stash Investing API
+    description: >-
+      Stash provides a mobile-first investing and banking platform enabling
+      fractional share purchases, automated smart portfolio management,
+      retirement accounts, and a Stock-Back debit card. The platform is
+      consumer-focused without a public developer API portal; programmatic
+      access to Stash account data is available through Open Banking aggregators
+      such as Plaid that support Stash connectivity.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.stash.com
+    baseURL: https://api.stashinvest.com
+    tags:
+      - Investing
+      - Banking
+      - Fractional Shares
+      - Portfolio
+      - IRA
+      - Custodial Accounts
+      - Stock-Back
+    properties:
+      - type: Documentation
+        url: https://www.stash.com/learn
+      - type: TermsOfService
+        url: https://www.stash.com/terms-of-service
+      - type: PrivacyPolicy
+        url: https://www.stash.com/privacy-policy
+      - type: Security
+        url: https://www.stashinvest.com/security
+      - type: Status
+        url: https://status.stash.com
+      - type: Blog
+        url: https://www.stash.com/learn
+      - type: EngineeringBlog
+        url: https://medium.com/stash-engineering
+      - type: Press
+        url: https://www.stash.com/press
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Stash Support
+        url: https://www.stash.com/support
+        email: [email protected]
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/finops/finops.yml
+  - type: Status
+    url: https://status.stash.com
+  - type: TermsOfService
+    url: https://www.stash.com/terms-of-service
+  - type: PrivacyPolicy
+    url: https://www.stash.com/privacy-policy
+  - type: Security
+    url: https://www.stashinvest.com/security
+  - type: Blog
+    url: https://www.stash.com/learn
+  - type: EngineeringBlog
+    url: https://medium.com/stash-engineering
+  - type: Press
+    url: https://www.stash.com/press
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

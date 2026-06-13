@@ -1,0 +1,58 @@
+finops:
+  description: >-
+    Stash operates on a subscription-based FinOps model rather than a
+    consumption-based API pricing model. Users pay a flat monthly fee for
+    access to investing, banking, and portfolio management features. There
+    are no per-call API fees, transaction fees for stock trades within the
+    platform, or account minimums. Key financial considerations include
+    subscription costs, underlying fund expense ratios for ETFs, and
+    potential SEC fees on stock sales.
+  url: https://www.stash.com/pricing
+
+  subscriptionPricing:
+    - plan: Stash Growth
+      monthlyFee: "$3.00"
+      annualEquivalent: "$36.00"
+    - plan: Stash+
+      monthlyFee: "$12.00"
+      annualEquivalent: "$144.00"
+
+  freeTrial:
+    available: true
+    duration: 7 days
+    description: Both plans include a 7-day free trial before billing begins.
+
+  tradingCosts:
+    commissions: "$0.00 — commission-free stock and ETF trading"
+    accountMinimum: "$0 minimum to open; $5 minimum for Smart Portfolios"
+    fractionalShares: true
+    notes:
+      - SEC fees may apply on stock sales (regulatory requirement).
+      - ETF expense ratios apply to underlying funds (not charged by Stash
+        directly but embedded in fund performance).
+
+  bankingCosts:
+    monthlyFees: Included in subscription
+    overdraftFees: None
+    atmAccess: Green Dot Bank ATM network (fee-free access)
+    stockBackRewards:
+      growth: "1% in stock on debit card purchases (up to $1,000/month)"
+      stashPlus: "1% in stock on debit card purchases (up to $1,000/month)"
+
+  retirementIncentives:
+    iraMatch:
+      growth: None
+      stashPlus: "3% match on IRA contributions"
+
+  insuranceBenefits:
+    growth: "$1,000 life insurance policy (included)"
+    stashPlus: "$10,000 life insurance policy (included)"
+
+  notes:
+    - Stash does not charge per-API-call fees; all costs are subscription-based.
+    - No public API pricing tier exists for external developers.
+    - Enterprise or embedded finance partnerships may have custom pricing;
+      contact [email protected] for inquiries.
+    - Subscription plans can be upgraded, downgraded, or cancelled at any time.
+    - AUM: $4.3 billion under management as of May 2025.
+    - Funding: $146M Series H raised in May 2025.
