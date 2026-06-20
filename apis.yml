@@ -7,7 +7,7 @@ description: >-
   education content. Stash serves over one million customers and has $4.3 billion
   under management, offering subscription-based access to a hybrid DIY and
   robo-advisor investing experience starting at $3 per month.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/apis.yml
 type: Index
 tags:
@@ -34,7 +34,7 @@ apis:
       consumer-focused without a public developer API portal; programmatic
       access to Stash account data is available through Open Banking aggregators
       such as Plaid that support Stash connectivity.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.stash.com
     baseURL: https://api.stashinvest.com
     tags:
