@@ -32,20 +32,13 @@
   "repo": "stash",
   "feeds": [
     {
-      "source": "https://status.stash.com",
-      "feed_url": "https://status.stash.com",
-      "title": "",
+      "source": "https://www.stash.com/learn",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://www.stashinvest.com/security",
-      "feed_url": "https://www.stashinvest.com/security",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:13:11Z",
+  "agent_pulled": "2026-06-27"
 }
