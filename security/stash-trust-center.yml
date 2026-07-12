@@ -1,0 +1,12 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://www.stash.com/security
+url: https://www.stash.com/security
+certifications:
+- PCI DSS
+evidence:
+- source: https://www.stash.com/security
+  keywords:
+  - pci dss
+  - pci-dss
