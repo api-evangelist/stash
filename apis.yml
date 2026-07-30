@@ -7,7 +7,19 @@ description: >-
   education content. Stash serves over one million customers and has $4.3 billion
   under management, offering subscription-based access to a hybrid DIY and
   robo-advisor investing experience starting at $3 per month.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stash.png
 url: https://raw.githubusercontent.com/api-evangelist/stash/refs/heads/main/apis.yml
 type: Index
 tags:
