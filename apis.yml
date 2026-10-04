@@ -36,7 +36,7 @@ tags:
 - Investing
 - Banking
 - Fractional Shares
-- Portfolio-Management
+- Portfolio Management
 - Financial Education
 - Robo-Advisor
 - Stock-Back
@@ -53,6 +53,7 @@ tags_raw:
 - Stock-Back
 - Custodial Accounts
 - IRA
+- Portfolio-Management
 created: '2026-06-13'
 modified: '2026-09-16'
 specificationVersion: '0.23'
